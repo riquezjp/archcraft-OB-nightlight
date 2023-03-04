@@ -1,4 +1,4 @@
-# archcraft-OB-nightlight
+# archcraft-openbox-nightlight
 Adding a nightlight (display temperatue shift) tool to Archcraft Openbox & Polybar.
 
 I did this specifically for my archcraft OB (2023.01.23 ISO), but you can use it for any Openbox system.
