@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+#
+var=$(gummy status);
+
+if [ "$var" == running ]; then
+	sleep 1 && gummy -t 6500 && sleep 1 && gummy stop 
+else
+	gummy start && sleep 1 && gummy -t 3400
+fi
