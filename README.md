@@ -36,4 +36,22 @@ See `scripts` folder in this repo for the file.
 3) EDIT your openbox theme's `apply.sh` file to auto-start gummy when your theme loads.
 These 2 small edits are detailed in the file `edits-to-apply.sh` in this repo.
 
-4) Add the polybar button
+4) Add the polybar button.
+  a) Add the code block to modules.ini as described in 'edits-to-modules.ini' in this repo
+  b) Finally, just add the 'nightlight' keyword to your polybar layout. This is on the file `~/.config/openbox-themes/themes/defaultish/polybar/config.ini' scroll down & find the section:
+  
+```
+# Default
+modules-left = 
+modules-centre = 
+modules-right = 
+```
+there will be modules listed here, something like this
+
+`modules-right = updates dot volume dot brightness nightlight dot network dot LD battery RD dot-alt LD sysmenu RD`
+
+Just type 'nightlight' where you would like the nightlight icon to appear. In the above line you can see I added it in the middle next to brightness.
+
+Then save the File & you are done.
+
+Reload your theme.
