@@ -35,7 +35,8 @@ See `scripts` folder in this repo for the file.
 
 3) EDIT your openbox theme's `apply.sh` file to auto-start gummy when your theme loads.
 These 2 small edits are detailed in the file `edits-to-apply.sh` in this repo.
-This part sets the nightlight to kick in at 6pm & return to normal at 6am, with a 30 min transition as it slowly changes from white light to orange light temperature. Please refer to the gummy repo if you would like to cusomise it.
+
+*This part sets the nightlight to kick in at 6pm & return to normal at 6am, with a 30 min transition as it slowly changes from white light to orange light temperature. Please refer to the gummy repo if you would like to cusomise it.*
 
 4) Add the polybar button.
   * Add the code block to modules.ini as described in `edits-to-modules.ini` in this repo
