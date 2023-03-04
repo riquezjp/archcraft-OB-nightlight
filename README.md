@@ -36,3 +36,4 @@ See `scripts` folder in this repo for the file.
 3) EDIT your openbox theme's `apply.sh` file to auto-start gummy when your theme loads.
 These 2 small edits are detailed in the file `edits-to-apply.sh` in this repo.
 
+4) Add the polybar button
