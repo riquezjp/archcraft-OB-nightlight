@@ -28,9 +28,11 @@ gummy stop
 
 refer to the gummy page for other distros
 
-2) drop the simple `nightlight` script into your OB theme script folder, (or create one)
-THis script just acts as an ON/OFF switch in your polybar.
+2) Drop the simple `nightlight` script into your OB theme script folder, (or create one)
+`~/.config/openbox-themes/themes/YOUR-THEME/polybar/scripts`
+This script just acts as an ON/OFF switch in your polybar.
+See `scripts` folder in this repo for the file.
 
 3) EDIT your openbox theme's `apply.sh` file to auto-start gummy when your theme loads.
-These 2 small edits are detailed in the file in this repo.
+These 2 small edits are detailed in the file `edits-to-apply.sh` in this repo.
 
