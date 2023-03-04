@@ -37,7 +37,9 @@ See `scripts` folder in this repo for the file.
 These 2 small edits are detailed in the file `edits-to-apply.sh` in this repo.
 
 4) Add the polybar button.
+
   a) Add the code block to modules.ini as described in 'edits-to-modules.ini' in this repo
+  
   b) Finally, just add the 'nightlight' keyword to your polybar layout. This is on the file `~/.config/openbox-themes/themes/defaultish/polybar/config.ini' scroll down & find the section:
   
 ```
